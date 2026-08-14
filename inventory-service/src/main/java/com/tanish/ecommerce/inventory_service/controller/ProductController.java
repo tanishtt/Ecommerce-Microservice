@@ -1,15 +1,13 @@
 package com.tanish.ecommerce.inventory_service.controller;
 
 
+import com.tanish.ecommerce.inventory_service.dto.OrderRequestDTO;
 import com.tanish.ecommerce.inventory_service.dto.ProductDTO;
 import com.tanish.ecommerce.inventory_service.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -32,5 +30,12 @@ public class ProductController {
         log.info("Received request to fetch product with ID: {}", productId);
         ProductDTO product = productService.getProductById(productId);
         return ResponseEntity.ok(product);
+    }
+
+    @PutMapping("/reduce-stocks")
+    public ResponseEntity<Double> reduceStocks(@RequestBody OrderRequestDTO orderRequestDTO) {
+        log.info("Received request to reduce stocks for order: {}", orderRequestDTO);
+        Double totalCost = productService.reduceStocks(orderRequestDTO);
+        return ResponseEntity.ok(totalCost);
     }
 }

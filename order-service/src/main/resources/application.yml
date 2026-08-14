@@ -1,0 +1,26 @@
+resilience4j:
+  retry:
+    instances:
+      inventoryRetry:
+        max-attempts: 5
+        wait-duration: 2s
+        exponential-backoff-multiplier: 2.0
+        enable-exponential-backoff: true
+  ratelimiter:
+    instances:
+      inventoryRateLimiter:
+        limitRefreshPeriod: 5s
+        limitForPeriod: 1
+        timeoutDuration: 1s
+
+  circuitbreaker:
+    instances:
+      inventoryCircuitBreaker:
+        registerHealthIndicator: true #Expose the health indicator for this circuit breaker
+        slidingWindowSize: 5 #The size of the sliding window
+        permittedNumberOfCallsInHalfOpenState: 3 #The number of permitted calls when the circuit breaker is in the half-open state
+        waitDurationInOpenState: 5s #The duration for which the circuit breaker remains in the open state
+        failureRateThreshold: 50 #The failure rate threshold for tripping the circuit breaker
+        slidingWindowType: COUNT_BASED #The type of sliding window
+        minimumNumberOfCalls: 5 #The minimum number of calls required to trigger the circuit breaker
+        automaticTransitionFromOpenToHalfOpenEnabled: true #Whether automatic transition from open to half-open state is enabled

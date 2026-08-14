@@ -6,15 +6,12 @@ import com.tanish.ecommerce.order_service.service.OrderService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/orders")
+@RequestMapping("/core")
 @RequiredArgsConstructor
 @Slf4j
 public class OrderController {
@@ -33,5 +30,13 @@ public class OrderController {
         log.info("Received request to fetch order with ID: {}", orderId);
         OrderRequestDTO order = orderService.getOrderById(orderId);
         return ResponseEntity.ok(order);
+    }
+
+    @PostMapping("/create-order")
+    public ResponseEntity<OrderRequestDTO> createOrder(@RequestBody OrderRequestDTO orderRequestDTO, @RequestHeader("X-User-ID") Long userId){
+        log.info("ORDER : userid: {}", userId);
+        OrderRequestDTO orderRequestDTO1 = orderService.createOrder(orderRequestDTO);
+
+        return ResponseEntity.ok(orderRequestDTO1);
     }
 }
