@@ -4,6 +4,7 @@ package com.tanish.ecommerce.api_gateway.filters;
 import com.tanish.ecommerce.api_gateway.service.JwtService;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.cloud.gateway.filter.GatewayFilter;
 import org.springframework.cloud.gateway.filter.factory.AbstractGatewayFilterFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
@@ -19,7 +20,7 @@ public class AuthenticationGatewayFilterFactory extends AbstractGatewayFilterFac
     }
 
     @Override
-    public org.springframework.cloud.gateway.filter.GatewayFilter apply(Config config) {
+    public GatewayFilter apply(Config config) {
         return (exchange, chain) -> {
             if(!config.enabled) {
                 //if authentication is not enabled, just pass the request to the next filter in the chain
