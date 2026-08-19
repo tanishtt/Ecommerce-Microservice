@@ -1,0 +1,49 @@
+2026-08-19 23:56:10.345 [main] [--] INFO  inventory-service-c.t.e.i.InventoryServiceApplication - Starting InventoryServiceApplication using Java 22.0.2 with PID 1832 (D:\ecommerce-microservices\inventory-service\target\classes started by tanis in D:\ecommerce-microservices\inventory-service)
+2026-08-19 23:56:10.346 [main] [--] INFO  inventory-service-c.t.e.i.InventoryServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-19 23:56:11.471 [main] [--] INFO  inventory-service-o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-19 23:56:11.693 [main] [--] INFO  inventory-service-o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 211 ms. Found 1 JPA repository interface.
+2026-08-19 23:56:11.886 [main] [--] INFO  inventory-service-o.s.cloud.context.scope.GenericScope - BeanFactory id=303c6d6a-6e5c-374a-8e71-45a724f24e2b
+2026-08-19 23:56:12.466 [main] [--] INFO  inventory-service-o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9091 (http)
+2026-08-19 23:56:12.479 [main] [--] INFO  inventory-service-o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2026-08-19 23:56:12.484 [main] [--] INFO  inventory-service-o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-19 23:56:12.484 [main] [--] INFO  inventory-service-o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2026-08-19 23:56:12.598 [main] [--] INFO  inventory-service-o.a.c.c.C.[.[localhost].[/inventory] - Initializing Spring embedded WebApplicationContext
+2026-08-19 23:56:12.598 [main] [--] INFO  inventory-service-o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2209 ms
+2026-08-19 23:56:12.872 [main] [--] INFO  inventory-service-o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-08-19 23:56:12.937 [main] [--] INFO  inventory-service-org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2026-08-19 23:56:12.977 [main] [--] INFO  inventory-service-o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-08-19 23:56:13.267 [main] [--] INFO  inventory-service-o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-19 23:56:13.294 [main] [--] INFO  inventory-service-com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-08-19 23:56:13.451 [main] [--] INFO  inventory-service-com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4fd63c43
+2026-08-19 23:56:13.453 [main] [--] INFO  inventory-service-com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-08-19 23:56:14.265 [main] [--] INFO  inventory-service-o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-19 23:56:14.281 [main] [--] WARN  inventory-service-o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2026-08-19 23:56:14.281 [main] [--] WARN  inventory-service-o.h.e.jdbc.spi.SqlExceptionHelper - table "product" does not exist, skipping
+2026-08-19 23:56:14.364 [main] [--] INFO  inventory-service-o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-19 23:56:14.705 [main] [--] WARN  inventory-service-o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-19 23:56:14.795 [main] [--] INFO  inventory-service-o.s.c.o.FeignClientFactoryBean - For 'order-service' URL not provided. Will try picking an instance via load-balancing.
+2026-08-19 23:56:15.597 [main] [--] INFO  inventory-service-o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2026-08-19 23:56:15.636 [main] [--] WARN  inventory-service-o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-08-19 23:56:15.652 [main] [--] INFO  inventory-service-o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-08-19 23:56:15.710 [main] [--] INFO  inventory-service-o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2026-08-19 23:56:15.731 [main] [--] INFO  inventory-service-c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2026-08-19 23:56:15.735 [main] [--] INFO  inventory-service-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-19 23:56:15.742 [main] [--] INFO  inventory-service-c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2026-08-19 23:56:15.742 [main] [--] INFO  inventory-service-c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2026-08-19 23:56:15.742 [main] [--] INFO  inventory-service-c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2026-08-19 23:56:15.742 [main] [--] INFO  inventory-service-c.netflix.discovery.DiscoveryClient - Application is null : false
+2026-08-19 23:56:15.742 [main] [--] INFO  inventory-service-c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2026-08-19 23:56:15.742 [main] [--] INFO  inventory-service-c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2026-08-19 23:56:15.742 [main] [--] INFO  inventory-service-c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2026-08-19 23:56:15.955 [main] [--] INFO  inventory-service-c.netflix.discovery.DiscoveryClient - The response status is 200
+2026-08-19 23:56:15.956 [main] [--] INFO  inventory-service-c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2026-08-19 23:56:15.962 [main] [--] INFO  inventory-service-c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-08-19 23:56:15.963 [main] [--] INFO  inventory-service-c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1787163975962 with initial instances count: 3
+2026-08-19 23:56:15.968 [main] [--] INFO  inventory-service-o.s.c.n.e.s.EurekaServiceRegistry - Registering application INVENTORY-SERVICE with eureka with status UP
+2026-08-19 23:56:15.969 [main] [--] INFO  inventory-service-c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1787163975969, current=UP, previous=STARTING]
+2026-08-19 23:56:15.970 [main] [--] INFO  inventory-service-o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2026-08-19 23:56:15.970 [DiscoveryClient-InstanceInfoReplicator-%d] [--] INFO  inventory-service-c.netflix.discovery.DiscoveryClient - DiscoveryClient_INVENTORY-SERVICE/TANISH.mshome.net:inventory-service:9091: registering service...
+2026-08-19 23:56:15.989 [main] [--] INFO  inventory-service-o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9091 (http) with context path '/inventory'
+2026-08-19 23:56:15.990 [main] [--] INFO  inventory-service-o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9091
+2026-08-19 23:56:16.004 [DiscoveryClient-InstanceInfoReplicator-%d] [--] INFO  inventory-service-c.netflix.discovery.DiscoveryClient - DiscoveryClient_INVENTORY-SERVICE/TANISH.mshome.net:inventory-service:9091 - registration status: 204
+2026-08-19 23:56:16.012 [main] [--] INFO  inventory-service-c.t.e.i.InventoryServiceApplication - Started InventoryServiceApplication in 6.227 seconds (process running for 6.784)

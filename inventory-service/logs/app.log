@@ -1,0 +1,19 @@
+2026-08-20 00:01:15.760 [AsyncResolver-bootstrap-executor-%d] [--] INFO  inventory-service-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:06:15.810 [AsyncResolver-bootstrap-executor-%d] [--] INFO  inventory-service-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:11:15.818 [AsyncResolver-bootstrap-executor-%d] [--] INFO  inventory-service-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:16:15.823 [AsyncResolver-bootstrap-executor-%d] [--] INFO  inventory-service-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:21:15.853 [AsyncResolver-bootstrap-executor-%d] [--] INFO  inventory-service-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:26:15.867 [AsyncResolver-bootstrap-executor-%d] [--] INFO  inventory-service-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:29:10.141 [http-nio-9091-exec-1] [--] INFO  inventory-service-o.a.c.c.C.[.[localhost].[/inventory] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-20 00:29:10.142 [http-nio-9091-exec-1] [--] INFO  inventory-service-o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-20 00:29:10.184 [http-nio-9091-exec-1] [--] INFO  inventory-service-o.s.web.servlet.DispatcherServlet - Completed initialization in 41 ms
+2026-08-20 00:29:10.328 [http-nio-9091-exec-1] [--] INFO  inventory-service-c.t.e.i.controller.ProductController - Received request to reduce stocks for order: OrderRequestDTO(items=[OrderRequestItemDTO(productId=14, quantity=1), OrderRequestItemDTO(productId=15, quantity=1)])
+2026-08-20 00:29:10.353 [http-nio-9091-exec-1] [--] INFO  inventory-service-c.t.e.i.service.ProductService - Reducing stocks for order: OrderRequestDTO(items=[OrderRequestItemDTO(productId=14, quantity=1), OrderRequestItemDTO(productId=15, quantity=1)])
+2026-08-20 00:29:10.525 [http-nio-9091-exec-1] [--] INFO  inventory-service-c.t.e.i.service.ProductService - Total cost for the order: 1050.0
+2026-08-20 00:31:15.885 [AsyncResolver-bootstrap-executor-%d] [--] INFO  inventory-service-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:36:15.902 [AsyncResolver-bootstrap-executor-%d] [--] INFO  inventory-service-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:41:15.918 [AsyncResolver-bootstrap-executor-%d] [--] INFO  inventory-service-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:42:16.897 [http-nio-9091-exec-3] [--] INFO  inventory-service-c.t.e.i.controller.ProductController - Received request to reduce stocks for order: OrderRequestDTO(items=[OrderRequestItemDTO(productId=14, quantity=1), OrderRequestItemDTO(productId=15, quantity=1)])
+2026-08-20 00:42:16.926 [http-nio-9091-exec-3] [--] INFO  inventory-service-c.t.e.i.service.ProductService - Reducing stocks for order: OrderRequestDTO(items=[OrderRequestItemDTO(productId=14, quantity=1), OrderRequestItemDTO(productId=15, quantity=1)])
+2026-08-20 00:42:16.993 [http-nio-9091-exec-3] [--] INFO  inventory-service-c.t.e.i.service.ProductService - Total cost for the order: 1050.0
+2026-08-20 00:46:15.926 [AsyncResolver-bootstrap-executor-%d] [--] INFO  inventory-service-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
