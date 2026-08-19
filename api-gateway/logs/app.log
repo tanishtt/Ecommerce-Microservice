@@ -1,0 +1,18 @@
+2026-08-20 00:02:00.777 [AsyncResolver-bootstrap-executor-%d] [--] INFO  api-gateway-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:07:00.831 [AsyncResolver-bootstrap-executor-%d] [--] INFO  api-gateway-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:12:00.844 [AsyncResolver-bootstrap-executor-%d] [--] INFO  api-gateway-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:17:00.861 [AsyncResolver-bootstrap-executor-%d] [--] INFO  api-gateway-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:22:00.873 [AsyncResolver-bootstrap-executor-%d] [--] INFO  api-gateway-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:27:00.880 [AsyncResolver-bootstrap-executor-%d] [--] INFO  api-gateway-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:29:07.608 [reactor-http-nio-2] [--] INFO  api-gateway-c.t.e.a.filters.LoggingOrdersFilter - LoggingOrdersFilter executed for request: http://tanish.mshome.net:8081/orders/core/create-order
+2026-08-20 00:29:07.609 [reactor-http-nio-2] [--] INFO  api-gateway-c.t.e.a.f.AuthenticationGatewayFilterFactory - AuthenticationGatewayFilterFactory executed for request: http://tanish.mshome.net:8081/orders/core/create-order
+2026-08-20 00:29:07.966 [reactor-http-nio-2] [--] INFO  api-gateway-c.t.e.a.filters.GlobalLoggingFilter - Global filter executed for request: http://tanish.mshome.net:8081/orders/core/create-order
+2026-08-20 00:29:10.909 [reactor-http-nio-2] [--] INFO  api-gateway-c.t.e.a.filters.GlobalLoggingFilter - Global filter executed for response: 200 OK
+2026-08-20 00:32:00.888 [AsyncResolver-bootstrap-executor-%d] [--] INFO  api-gateway-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:37:00.899 [AsyncResolver-bootstrap-executor-%d] [--] INFO  api-gateway-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:42:00.915 [AsyncResolver-bootstrap-executor-%d] [--] INFO  api-gateway-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:42:16.278 [reactor-http-nio-3] [--] INFO  api-gateway-c.t.e.a.filters.LoggingOrdersFilter - LoggingOrdersFilter executed for request: http://tanish.mshome.net:8081/orders/core/create-order
+2026-08-20 00:42:16.279 [reactor-http-nio-3] [--] INFO  api-gateway-c.t.e.a.f.AuthenticationGatewayFilterFactory - AuthenticationGatewayFilterFactory executed for request: http://tanish.mshome.net:8081/orders/core/create-order
+2026-08-20 00:42:16.319 [reactor-http-nio-3] [--] INFO  api-gateway-c.t.e.a.filters.GlobalLoggingFilter - Global filter executed for request: http://tanish.mshome.net:8081/orders/core/create-order
+2026-08-20 00:42:17.200 [reactor-http-nio-3] [--] INFO  api-gateway-c.t.e.a.filters.GlobalLoggingFilter - Global filter executed for response: 200 OK
+2026-08-20 00:47:00.930 [AsyncResolver-bootstrap-executor-%d] [--] INFO  api-gateway-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
