@@ -1,0 +1,15 @@
+2026-08-20 00:03:16.431 [AsyncResolver-bootstrap-executor-%d] [--] INFO  order-service-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:08:16.488 [AsyncResolver-bootstrap-executor-%d] [--] INFO  order-service-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:13:16.506 [AsyncResolver-bootstrap-executor-%d] [--] INFO  order-service-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:18:16.517 [AsyncResolver-bootstrap-executor-%d] [--] INFO  order-service-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:23:16.525 [AsyncResolver-bootstrap-executor-%d] [--] INFO  order-service-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:28:16.535 [AsyncResolver-bootstrap-executor-%d] [--] INFO  order-service-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:29:08.819 [http-nio-9092-exec-1] [--] INFO  order-service-o.a.c.c.C.[.[localhost].[/orders] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-20 00:29:08.821 [http-nio-9092-exec-1] [--] INFO  order-service-o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-20 00:29:08.890 [http-nio-9092-exec-1] [--] INFO  order-service-o.s.web.servlet.DispatcherServlet - Completed initialization in 68 ms
+2026-08-20 00:29:09.106 [http-nio-9092-exec-1] [--] INFO  order-service-c.t.e.o.controller.OrderController - ORDER : userid: 1234567890
+2026-08-20 00:33:16.540 [AsyncResolver-bootstrap-executor-%d] [--] INFO  order-service-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:38:16.548 [AsyncResolver-bootstrap-executor-%d] [--] INFO  order-service-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:42:16.656 [http-nio-9092-exec-3] [--] INFO  order-service-c.t.e.o.controller.OrderController - ORDER : userid: 1234567890
+2026-08-20 00:43:16.560 [AsyncResolver-bootstrap-executor-%d] [--] INFO  order-service-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-08-20 00:48:16.608 [AsyncResolver-bootstrap-executor-%d] [--] INFO  order-service-c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
